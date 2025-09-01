@@ -11,6 +11,7 @@ import techProjects from "./techProjects.pdf";
 import backDigiCam from "./backDigiCam.png";
 import contactInfo from "./portfolioContactInfo.mp4";
 import thanksVideo from './thankYou.mp4';
+import uxui from './UIUXdev.png'
 
 function App() {
   const [showBack, setShowBack] = useState(false);
@@ -23,7 +24,7 @@ function App() {
       <div className="folder-bar">
         {[
           { href: "#projects", label: "Projects" },
-          { href: "#techstack", label: "Tech_Stack" },
+          { href: "#techstack", label: "Tech_Stack & design" },
           { href: "#teaching", label: "Teaching" },
           { href: "#extras", label: "Extras" },
           { href: "#contact", label: "Contact_Me" },
@@ -57,7 +58,7 @@ function App() {
 
       <section id="projects">
         <h2>Dev Projects 📱</h2>
-        <p>Explore my GITHUB projects & README's ✨</p>
+        <p>Explore my <a href="https://github.com/YazCodes?tab=repositories">GITHUB</a> projects & README's ✨</p>
         <iframe
           src={`${techProjects}#toolbar=0&navpanes=0&scrollbar=0&view=FitH&zoom=page-width`}
           title="Tech Projects"
@@ -73,6 +74,7 @@ function App() {
       <section id="teaching">
         <h2>Tech Programming Teacher 👩🏽‍🏫</h2>
         <img src={teachingPost} alt="Teaching blog post" />
+         <img src={uxui} alt="UX/UI post" />
       </section>
 
       <section id="extras">
