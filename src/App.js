@@ -12,6 +12,7 @@ import backDigiCam from "./backDigiCam.png";
 import contactInfo from "./portfolioContactInfo.mp4";
 import thanksVideo from './thankYou.mp4';
 import uxui from './UIUXdev.png'
+import codingMusic from './codingMusic.png'
 
 function App() {
   const [showBack, setShowBack] = useState(false);
@@ -64,6 +65,7 @@ function App() {
           title="Tech Projects"
           style={{ width: "100%", height: "100vh", border: "none" }}
         />
+        <img src={codingMusic} alt="Info about me coding music" />
       </section>
 
       <section id="techstack">
