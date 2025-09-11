@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import digitalCamFront from "./digitalCamFrontEdited.png";
-import digitalCamBack from "./digitalCamBack.jpg";
-import tamagotchiImg from "./tamagotchiEdited.png";
-import folder from "./folder.png";
-import techStack from "./techStack.png";
-import teachingPost from "./teachingPost.png";
-import techProjects from "./techProjects.pdf";
-import backDigiCam from "./backDigiCam.png";
-import contactInfo from "./portfolioContactInfo.mp4";
-import thanksVideo from './thankYou.mp4';
-import uxui from './UIUXdev.png'
-import codingMusic from './codingMusic.png'
+import digitalCamFront from "./assets/digitalCamFrontEdited.png";
+import digitalCamBack from "./assets/digitalCamBack.jpg";
+import tamagotchiImg from "./assets/tamagotchiEdited.png";
+import folder from "./assets/folder.png";
+import techStack from "./assets/techStack.png";
+import teachingPost from "./assets/teachingPost.png";
+import techProjects from "./assets/techProjects.pdf";
+import backDigiCam from "./assets/backDigiCam.png";
+import contactInfo from "./assets/portfolioContactInfo.mp4";
+import thanksVideo from './assets/thankYou.mp4';
+import uxui from './assets/UIUXdev.png'
+import codingMusic from './assets/codingMusic.png'
 
 function App() {
   const [showBack, setShowBack] = useState(false);
