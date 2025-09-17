@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 
 import digitalCamFront from "./assets/digitalCamFrontEdited.png";
-import digitalCamBack from "./assets/digitalCamBack.jpg";
 import tamagotchiImg from "./assets/tamagotchiEdited.png";
 import folder from "./assets/folder.png";
 import techStack from "./assets/techStack.png";
@@ -13,6 +12,8 @@ import contactInfo from "./assets/portfolioContactInfo.mp4";
 import thanksVideo from './assets/thankYou.mp4';
 import uxui from './assets/UIUXdev.png'
 import codingMusic from './assets/codingMusic.png'
+
+import DressUpGame from "./components/dressUpGame";
 
 function App() {
   const [showBack, setShowBack] = useState(false);
@@ -57,6 +58,12 @@ function App() {
         </div>
       </div>
 
+      <div>
+        <h1>Dress up game</h1>
+        <p>Click <a href="https://github.com/YazCodes?tab=repositories">here</a> to see how i coded this game :) </p>
+        <DressUpGame />
+      </div>
+
       <section id="projects">
         <h2>Dev Projects 📱</h2>
         <p>Explore my <a href="https://github.com/YazCodes?tab=repositories">GITHUB</a> projects & README's ✨</p>
@@ -71,12 +78,12 @@ function App() {
       <section id="techstack">
         <h2>My Tech Stack 📚</h2>
         <img src={techStack} alt="Images of my tech stack" />
+        <img src={uxui} alt="UX/UI post" />
       </section>
 
       <section id="teaching">
         <h2>Tech Programming Teacher 👩🏽‍🏫</h2>
         <img src={teachingPost} alt="Teaching blog post" />
-         <img src={uxui} alt="UX/UI post" />
       </section>
 
       <section id="extras">
