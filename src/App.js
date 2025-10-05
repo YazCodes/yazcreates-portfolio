@@ -12,6 +12,9 @@ import contactInfo from "./assets/portfolioContactInfo.mp4";
 import thanksVideo from './assets/thankYou.mp4';
 import uxui from './assets/UIUXdev.png'
 import codingMusic from './assets/codingMusic.png'
+import mediaPost from './assets/yaz social media.png'
+import mediaAnalytics from './assets/tiktokpost.png'
+import polaroid from './assets/polaroid.png'
 
 import DressUpGame from "./components/dressUpGame";
 
@@ -21,15 +24,16 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="homepage-heading">.𖥔 ݁ Yasmin's tech portfolio ˖ ♡</h1>
+      <h1 className="homepage-heading">.𖥔 ݁ Yasmin's portfolio ˖ ♡</h1>
+      <h3>Hi! i'm a creative technologist i blend tech, creative design and fashion to build innovative, interactive, and artistic digital experiences for everyone ♡.</h3>
 
       <div className="folder-bar">
         {[
-          { href: "#projects", label: "Projects" },
-          { href: "#techstack", label: "Tech_Stack & design" },
-          { href: "#teaching", label: "Teaching" },
-          { href: "#extras", label: "Extras" },
-          { href: "#contact", label: "Contact_Me" },
+          { href: "#projects", label: "Tech Projects" },
+          { href: "#coding", label: "Coding & UI/UX Design" },
+          { href: "#content creation", label: "Content Creation" },
+          { href: "#fashion", label: "Fashion" },
+          { href: "#contact", label: "Contact Me" },
         ].map((item, index) => (
           <div className="folder-icon" key={index}>
             <a href={item.href}>
@@ -50,7 +54,7 @@ function App() {
             />
           ) : (
             <img
-              src={backDigiCam}
+              src={polaroid}
               alt="Digital Camera Back"
               className="camera-back"
             />
@@ -59,13 +63,14 @@ function App() {
       </div>
 
       <div>
-        <h1>Dress up game</h1>
+        <h1>Early 2000's throwback</h1>
         <p>Click <a href="https://github.com/YazCodes?tab=repositories">here</a> to see how i coded this game :) </p>
+        <p>I created some of the outfits using <a href="=https://krita.org/en/">Krita</a></p>
         <DressUpGame />
       </div>
 
       <section id="projects">
-        <h2>Dev Projects 📱</h2>
+        <h2>Tech Projects 📱</h2>
         <p>Explore my <a href="https://github.com/YazCodes?tab=repositories">GITHUB</a> projects & README's ✨</p>
         <iframe
           src={`${techProjects}#toolbar=0&navpanes=0&scrollbar=0&view=FitH&zoom=page-width`}
@@ -75,38 +80,25 @@ function App() {
         <img src={codingMusic} alt="Info about me coding music" />
       </section>
 
-      <section id="techstack">
-        <h2>My Tech Stack 📚</h2>
+      <section id="coding & desing">
+        <h2>Coding & design 📚</h2>
         <img src={techStack} alt="Images of my tech stack" />
         <img src={uxui} alt="UX/UI post" />
       </section>
 
-      <section id="teaching">
-        <h2>Tech Programming Teacher 👩🏽‍🏫</h2>
-        <img src={teachingPost} alt="Teaching blog post" />
+      <section id="content creation">
+        <h2>Content Creation</h2>
+        <img src={mediaPost} alt="Info about my social media" />
+        <img src={mediaAnalytics} alt="Analytics details" />
+        
       </section>
 
-      <section id="extras">
-        <h2>Extras</h2>
+      <section id="fashion">
+        <h2>Fashion</h2>
         <div className="tamagotchi-extras">
           <img src={tamagotchiImg} alt="Tamagotchi" className="tamagotchi-extras-img" />
           <div className="tamagotchi-extras-screen">
-            <h1>Other technologies/interests I've been looking into</h1>
-
-            <h3>BSC Tech Podcast Episode ⭐</h3>
-            <a
-              href="https://www.bcs.org/articles-opinion-and-research/women-in-software-development/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              💻 Women in software development
-            </a>
-
-            <h3>✨ Digital design ✨</h3>
-            <p>
-              I have been looking into Blender, Krita & Canva in creating digital
-              designs
-            </p>
+            <h1>Coming soooon! ⭐</h1>
           </div>
         </div>
       </section>
