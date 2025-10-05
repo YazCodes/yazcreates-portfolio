@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/yazcreates-portfolio/static/css/main.aa4e4ff2.css",
-    "main.js": "/yazcreates-portfolio/static/js/main.eac958c7.js",
+    "main.js": "/yazcreates-portfolio/static/js/main.512496f0.js",
     "static/media/thankYou.mp4": "/yazcreates-portfolio/static/media/thankYou.e013f84a3a691d7e380f.mp4",
     "static/media/bow1.png": "/yazcreates-portfolio/static/media/bow1.b3fe867ba7b913bd9559.png",
     "static/media/techProjects.pdf": "/yazcreates-portfolio/static/media/techProjects.4810ab5d8cbdc59ad5a1.pdf",
     "static/media/tamagotchiEdited.png": "/yazcreates-portfolio/static/media/tamagotchiEdited.3fefcd4a48d386a43948.png",
     "static/media/gameBackground.png": "/yazcreates-portfolio/static/media/gameBackground.e14c1900e0e0e2717e4e.png",
     "static/media/backDigiCam.png": "/yazcreates-portfolio/static/media/backDigiCam.1403cfc245001b4d110f.png",
+    "static/media/polaroid.png": "/yazcreates-portfolio/static/media/polaroid.c1053f6a9725ee1ac0c0.png",
     "static/media/outfit1.png": "/yazcreates-portfolio/static/media/outfit1.2b6e9cf358afa756e892.png",
     "static/media/outfit2.png": "/yazcreates-portfolio/static/media/outfit2.5f1afe6f6cd0289dca6f.png",
     "static/media/teachingPost.png": "/yazcreates-portfolio/static/media/teachingPost.896d12a5b100c7fc15ea.png",
+    "static/media/tiktokpost.png": "/yazcreates-portfolio/static/media/tiktokpost.548f24a04521658682fc.png",
     "static/media/digitalCamFrontEdited.png": "/yazcreates-portfolio/static/media/digitalCamFrontEdited.c897a42bdf9045c5a55d.png",
     "static/media/techStack.png": "/yazcreates-portfolio/static/media/techStack.e6024d6ea1e4f92141a2.png",
     "static/media/UIUXdev.png": "/yazcreates-portfolio/static/media/UIUXdev.9401bcb0c57535efd689.png",
@@ -24,14 +26,15 @@
     "static/media/outfit3.png": "/yazcreates-portfolio/static/media/outfit3.25ca227f216fcab5b6a5.png",
     "static/media/portfolioContactInfo.mp4": "/yazcreates-portfolio/static/media/portfolioContactInfo.7a103ed6bbc6661f35e5.mp4",
     "static/media/shoe1.png": "/yazcreates-portfolio/static/media/shoe1.c037856b1656c26bed59.png",
+    "static/media/yaz social media.png": "/yazcreates-portfolio/static/media/yaz social media.6e9f9820c1c1fa19522e.png",
     "static/media/shoe2.png": "/yazcreates-portfolio/static/media/shoe2.bbbaa781a4cd4740d107.png",
     "static/media/folder.png": "/yazcreates-portfolio/static/media/folder.ce551e94cfb11116b9e5.png",
     "index.html": "/yazcreates-portfolio/index.html",
     "main.aa4e4ff2.css.map": "/yazcreates-portfolio/static/css/main.aa4e4ff2.css.map",
-    "main.eac958c7.js.map": "/yazcreates-portfolio/static/js/main.eac958c7.js.map"
+    "main.512496f0.js.map": "/yazcreates-portfolio/static/js/main.512496f0.js.map"
   },
   "entrypoints": [
     "static/css/main.aa4e4ff2.css",
-    "static/js/main.eac958c7.js"
+    "static/js/main.512496f0.js"
   ]
 }
